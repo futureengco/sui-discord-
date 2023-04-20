@@ -9928,6 +9928,26 @@ dependencies = [
 ]
 
 [[package]]
+name = "sui-surfer"
+version = "0.33.0"
+dependencies = [
+ "bcs",
+ "move-binary-format",
+ "move-core-types",
+ "rand 0.8.5",
+ "sui-core",
+ "sui-json-rpc-types",
+ "sui-move-build",
+ "sui-protocol-config",
+ "sui-types",
+ "telemetry-subscribers",
+ "test-utils",
+ "tokio",
+ "tracing",
+ "workspace-hack",
+]
+
+[[package]]
 name = "sui-swarm"
 version = "0.0.0"
 dependencies = [
