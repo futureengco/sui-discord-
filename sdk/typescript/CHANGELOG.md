@@ -1,5 +1,15 @@
 # @mysten/sui.js
 
+## 0.32.2
+
+### Patch Changes
+
+- 4ae3cbea3: Response for `getCoinMetadata` is now nullable, in the event that no metadata can be found.
+- c219e7470: Changed the response type of `getRpcApiVersion` to string.
+- 59ae0e7d6: Removed `skipDataValidation` option, this is now not configurable and is the default behavior.
+- c219e7470: Fix type of `limit` on `getCheckpoints` and `getEpochs` API so that is correctly a number.
+- 4e463c691: Add `waitForTransactionBlock` API to wait for a transaction to be available over the API.
+
 ## 0.32.1
 
 ### Patch Changes
